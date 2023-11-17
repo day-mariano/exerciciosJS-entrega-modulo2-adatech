@@ -20,7 +20,7 @@ Obs: Pode utilizar o `for` .
 
 ### Resposta:
 
-Primeiro eu colei a lista de empregados passada. Depois chamei um `console.log()` o array com método `some()` passando como parametro a `fuction` `isBiggerthan1500` para validar se existe algum empregado com salário maior do que 1500 (retorna booleano `true`). E outro `console.log()` com o método `some()` agora passando `isSmallerthan100` para verificar se existe algum empregado com o salário menor do que 1000 (retorna booleano `false`).
+Primeiro eu colei a lista de empregados passada. Depois chamei um `console.log()` o array com método `some()` passando como parametro a `fuction` `isBiggerthan1500` para validar se existe algum empregado com salário maior do que 1500 (retorna booleano `true`). E outro `console.log()` com o método `some()` agora passando `isSmallerthan1000` para verificar se existe algum empregado com o salário menor do que 1000 (retorna booleano `false`).
 
 ```jsx
 const empregados = [
